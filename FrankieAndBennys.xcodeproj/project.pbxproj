@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		331FFB8022ECA49300838D54 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331FFB7F22ECA49300838D54 /* String+Additions.swift */; };
+		33A1800522EC6F070020400F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1800422EC6F070020400F /* AppDelegate.swift */; };
+		33A1800A22EC6F070020400F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A1800822EC6F070020400F /* Main.storyboard */; };
+		33A1800D22EC6F070020400F /* FrankieAndBennys.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33A1800B22EC6F070020400F /* FrankieAndBennys.xcdatamodeld */; };
+		33A1800F22EC6F090020400F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A1800E22EC6F090020400F /* Assets.xcassets */; };
+		33A1801222EC6F090020400F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A1801022EC6F090020400F /* LaunchScreen.storyboard */; };
+		33A1801D22EC6F0A0020400F /* FrankieAndBennysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1801C22EC6F0A0020400F /* FrankieAndBennysTests.swift */; };
+		33A1802822EC6F0A0020400F /* FrankieAndBennysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1802722EC6F0A0020400F /* FrankieAndBennysUITests.swift */; };
+		33A1803722EC6F2C0020400F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1803522EC6F2C0020400F /* MapViewController.swift */; };
+		33A1803822EC6F2C0020400F /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A1803622EC6F2C0020400F /* MapViewController.xib */; };
+		33A1803A22EC70680020400F /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1803922EC70680020400F /* Restaurant.swift */; };
+		33A1803C22EC88A00020400F /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1803B22EC88A00020400F /* MapPresenter.swift */; };
+		33A1803E22EC88B00020400F /* MapContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1803D22EC88B00020400F /* MapContract.swift */; };
+		33A1804022EC90BA0020400F /* MapKit+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1803F22EC90BA0020400F /* MapKit+Additions.swift */; };
+		33A2696722EC992E0038E10F /* RestaurantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2696522EC992E0038E10F /* RestaurantDetailsViewController.swift */; };
+		33A2696822EC992E0038E10F /* RestaurantDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A2696622EC992E0038E10F /* RestaurantDetailsViewController.xib */; };
+		33A2696A22EC994A0038E10F /* RestaurantDetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2696922EC994A0038E10F /* RestaurantDetailContract.swift */; };
+		33A2697122EC9CA60038E10F /* RestaurantDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A2697022EC9CA60038E10F /* RestaurantDetailsPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33A1801922EC6F0A0020400F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A17FF922EC6F070020400F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A1800022EC6F070020400F;
+			remoteInfo = FrankieAndBennys;
+		};
+		33A1802422EC6F0A0020400F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A17FF922EC6F070020400F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A1800022EC6F070020400F;
+			remoteInfo = FrankieAndBennys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		331FFB7F22ECA49300838D54 /* String+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		33A1800122EC6F070020400F /* FrankieAndBennys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrankieAndBennys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A1800422EC6F070020400F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33A1800922EC6F070020400F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33A1800C22EC6F070020400F /* FrankieAndBennys.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FrankieAndBennys.xcdatamodel; sourceTree = "<group>"; };
+		33A1800E22EC6F090020400F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33A1801122EC6F090020400F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33A1801322EC6F090020400F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A1801822EC6F0A0020400F /* FrankieAndBennysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrankieAndBennysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A1801C22EC6F0A0020400F /* FrankieAndBennysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrankieAndBennysTests.swift; sourceTree = "<group>"; };
+		33A1801E22EC6F0A0020400F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A1802322EC6F0A0020400F /* FrankieAndBennysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrankieAndBennysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A1802722EC6F0A0020400F /* FrankieAndBennysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrankieAndBennysUITests.swift; sourceTree = "<group>"; };
+		33A1802922EC6F0A0020400F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A1803522EC6F2C0020400F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		33A1803622EC6F2C0020400F /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		33A1803922EC70680020400F /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		33A1803B22EC88A00020400F /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		33A1803D22EC88B00020400F /* MapContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContract.swift; sourceTree = "<group>"; };
+		33A1803F22EC90BA0020400F /* MapKit+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapKit+Additions.swift"; sourceTree = "<group>"; };
+		33A2696522EC992E0038E10F /* RestaurantDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewController.swift; sourceTree = "<group>"; };
+		33A2696622EC992E0038E10F /* RestaurantDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantDetailsViewController.xib; sourceTree = "<group>"; };
+		33A2696922EC994A0038E10F /* RestaurantDetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailContract.swift; sourceTree = "<group>"; };
+		33A2697022EC9CA60038E10F /* RestaurantDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A17FFE22EC6F070020400F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1801522EC6F0A0020400F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1802022EC6F0A0020400F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A17FF822EC6F070020400F = {
+			isa = PBXGroup;
+			children = (
+				33A1800322EC6F070020400F /* FrankieAndBennys */,
+				33A1801B22EC6F0A0020400F /* FrankieAndBennysTests */,
+				33A1802622EC6F0A0020400F /* FrankieAndBennysUITests */,
+				33A1800222EC6F070020400F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A1800222EC6F070020400F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A1800122EC6F070020400F /* FrankieAndBennys.app */,
+				33A1801822EC6F0A0020400F /* FrankieAndBennysTests.xctest */,
+				33A1802322EC6F0A0020400F /* FrankieAndBennysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A1800322EC6F070020400F /* FrankieAndBennys */ = {
+			isa = PBXGroup;
+			children = (
+				33A1800422EC6F070020400F /* AppDelegate.swift */,
+				33A1801322EC6F090020400F /* Info.plist */,
+				33A2696D22EC999A0038E10F /* Models */,
+				33A2696C22EC99860038E10F /* Map */,
+				33A2696B22EC99750038E10F /* Restaurant Detail */,
+				33A2696E22EC99B50038E10F /* Utilities */,
+				33A2696F22EC99D20038E10F /* Other */,
+			);
+			path = FrankieAndBennys;
+			sourceTree = "<group>";
+		};
+		33A1801B22EC6F0A0020400F /* FrankieAndBennysTests */ = {
+			isa = PBXGroup;
+			children = (
+				33A1801C22EC6F0A0020400F /* FrankieAndBennysTests.swift */,
+				33A1801E22EC6F0A0020400F /* Info.plist */,
+			);
+			path = FrankieAndBennysTests;
+			sourceTree = "<group>";
+		};
+		33A1802622EC6F0A0020400F /* FrankieAndBennysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33A1802722EC6F0A0020400F /* FrankieAndBennysUITests.swift */,
+				33A1802922EC6F0A0020400F /* Info.plist */,
+			);
+			path = FrankieAndBennysUITests;
+			sourceTree = "<group>";
+		};
+		33A2696B22EC99750038E10F /* Restaurant Detail */ = {
+			isa = PBXGroup;
+			children = (
+				33A2696522EC992E0038E10F /* RestaurantDetailsViewController.swift */,
+				33A2697022EC9CA60038E10F /* RestaurantDetailsPresenter.swift */,
+				33A2696622EC992E0038E10F /* RestaurantDetailsViewController.xib */,
+				33A2696922EC994A0038E10F /* RestaurantDetailContract.swift */,
+			);
+			path = "Restaurant Detail";
+			sourceTree = "<group>";
+		};
+		33A2696C22EC99860038E10F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				33A1803522EC6F2C0020400F /* MapViewController.swift */,
+				33A1803622EC6F2C0020400F /* MapViewController.xib */,
+				33A1803B22EC88A00020400F /* MapPresenter.swift */,
+				33A1803D22EC88B00020400F /* MapContract.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		33A2696D22EC999A0038E10F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33A1803922EC70680020400F /* Restaurant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33A2696E22EC99B50038E10F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				33A1803F22EC90BA0020400F /* MapKit+Additions.swift */,
+				331FFB7F22ECA49300838D54 /* String+Additions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		33A2696F22EC99D20038E10F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				33A1800822EC6F070020400F /* Main.storyboard */,
+				33A1800E22EC6F090020400F /* Assets.xcassets */,
+				33A1801022EC6F090020400F /* LaunchScreen.storyboard */,
+				33A1800B22EC6F070020400F /* FrankieAndBennys.xcdatamodeld */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A1800022EC6F070020400F /* FrankieAndBennys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A1802C22EC6F0A0020400F /* Build configuration list for PBXNativeTarget "FrankieAndBennys" */;
+			buildPhases = (
+				33A17FFD22EC6F070020400F /* Sources */,
+				33A17FFE22EC6F070020400F /* Frameworks */,
+				33A17FFF22EC6F070020400F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrankieAndBennys;
+			productName = FrankieAndBennys;
+			productReference = 33A1800122EC6F070020400F /* FrankieAndBennys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33A1801722EC6F0A0020400F /* FrankieAndBennysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A1802F22EC6F0A0020400F /* Build configuration list for PBXNativeTarget "FrankieAndBennysTests" */;
+			buildPhases = (
+				33A1801422EC6F0A0020400F /* Sources */,
+				33A1801522EC6F0A0020400F /* Frameworks */,
+				33A1801622EC6F0A0020400F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A1801A22EC6F0A0020400F /* PBXTargetDependency */,
+			);
+			name = FrankieAndBennysTests;
+			productName = FrankieAndBennysTests;
+			productReference = 33A1801822EC6F0A0020400F /* FrankieAndBennysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33A1802222EC6F0A0020400F /* FrankieAndBennysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A1803222EC6F0A0020400F /* Build configuration list for PBXNativeTarget "FrankieAndBennysUITests" */;
+			buildPhases = (
+				33A1801F22EC6F0A0020400F /* Sources */,
+				33A1802022EC6F0A0020400F /* Frameworks */,
+				33A1802122EC6F0A0020400F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A1802522EC6F0A0020400F /* PBXTargetDependency */,
+			);
+			name = FrankieAndBennysUITests;
+			productName = FrankieAndBennysUITests;
+			productReference = 33A1802322EC6F0A0020400F /* FrankieAndBennysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A17FF922EC6F070020400F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yogesh N Ramsorrrun";
+				TargetAttributes = {
+					33A1800022EC6F070020400F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					33A1801722EC6F0A0020400F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 33A1800022EC6F070020400F;
+					};
+					33A1802222EC6F0A0020400F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 33A1800022EC6F070020400F;
+					};
+				};
+			};
+			buildConfigurationList = 33A17FFC22EC6F070020400F /* Build configuration list for PBXProject "FrankieAndBennys" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A17FF822EC6F070020400F;
+			productRefGroup = 33A1800222EC6F070020400F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A1800022EC6F070020400F /* FrankieAndBennys */,
+				33A1801722EC6F0A0020400F /* FrankieAndBennysTests */,
+				33A1802222EC6F0A0020400F /* FrankieAndBennysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A17FFF22EC6F070020400F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1801222EC6F090020400F /* LaunchScreen.storyboard in Resources */,
+				33A1800F22EC6F090020400F /* Assets.xcassets in Resources */,
+				33A1800A22EC6F070020400F /* Main.storyboard in Resources */,
+				33A2696822EC992E0038E10F /* RestaurantDetailsViewController.xib in Resources */,
+				33A1803822EC6F2C0020400F /* MapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1801622EC6F0A0020400F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1802122EC6F0A0020400F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A17FFD22EC6F070020400F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A2697122EC9CA60038E10F /* RestaurantDetailsPresenter.swift in Sources */,
+				33A1803E22EC88B00020400F /* MapContract.swift in Sources */,
+				33A1803A22EC70680020400F /* Restaurant.swift in Sources */,
+				33A1800D22EC6F070020400F /* FrankieAndBennys.xcdatamodeld in Sources */,
+				33A1804022EC90BA0020400F /* MapKit+Additions.swift in Sources */,
+				33A2696A22EC994A0038E10F /* RestaurantDetailContract.swift in Sources */,
+				33A1803C22EC88A00020400F /* MapPresenter.swift in Sources */,
+				33A1800522EC6F070020400F /* AppDelegate.swift in Sources */,
+				33A2696722EC992E0038E10F /* RestaurantDetailsViewController.swift in Sources */,
+				33A1803722EC6F2C0020400F /* MapViewController.swift in Sources */,
+				331FFB8022ECA49300838D54 /* String+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1801422EC6F0A0020400F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1801D22EC6F0A0020400F /* FrankieAndBennysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1801F22EC6F0A0020400F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1802822EC6F0A0020400F /* FrankieAndBennysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A1801A22EC6F0A0020400F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A1800022EC6F070020400F /* FrankieAndBennys */;
+			targetProxy = 33A1801922EC6F0A0020400F /* PBXContainerItemProxy */;
+		};
+		33A1802522EC6F0A0020400F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A1800022EC6F070020400F /* FrankieAndBennys */;
+			targetProxy = 33A1802422EC6F0A0020400F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33A1800822EC6F070020400F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A1800922EC6F070020400F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33A1801022EC6F090020400F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A1801122EC6F090020400F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A1802A22EC6F0A0020400F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33A1802B22EC6F0A0020400F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A1802D22EC6F0A0020400F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/FrankieAndBennys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nik.FrankieAndBennys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33A1802E22EC6F0A0020400F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/FrankieAndBennys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nik.FrankieAndBennys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33A1803022EC6F0A0020400F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FrankieAndBennysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nik.FrankieAndBennysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrankieAndBennys.app/FrankieAndBennys";
+			};
+			name = Debug;
+		};
+		33A1803122EC6F0A0020400F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FrankieAndBennysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nik.FrankieAndBennysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrankieAndBennys.app/FrankieAndBennys";
+			};
+			name = Release;
+		};
+		33A1803322EC6F0A0020400F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FrankieAndBennysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nik.FrankieAndBennysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrankieAndBennys;
+			};
+			name = Debug;
+		};
+		33A1803422EC6F0A0020400F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FrankieAndBennysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nik.FrankieAndBennysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrankieAndBennys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A17FFC22EC6F070020400F /* Build configuration list for PBXProject "FrankieAndBennys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1802A22EC6F0A0020400F /* Debug */,
+				33A1802B22EC6F0A0020400F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A1802C22EC6F0A0020400F /* Build configuration list for PBXNativeTarget "FrankieAndBennys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1802D22EC6F0A0020400F /* Debug */,
+				33A1802E22EC6F0A0020400F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A1802F22EC6F0A0020400F /* Build configuration list for PBXNativeTarget "FrankieAndBennysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1803022EC6F0A0020400F /* Debug */,
+				33A1803122EC6F0A0020400F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A1803222EC6F0A0020400F /* Build configuration list for PBXNativeTarget "FrankieAndBennysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1803322EC6F0A0020400F /* Debug */,
+				33A1803422EC6F0A0020400F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33A1800B22EC6F070020400F /* FrankieAndBennys.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33A1800C22EC6F070020400F /* FrankieAndBennys.xcdatamodel */,
+			);
+			currentVersion = 33A1800C22EC6F070020400F /* FrankieAndBennys.xcdatamodel */;
+			path = FrankieAndBennys.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33A17FF922EC6F070020400F /* Project object */;
+}
